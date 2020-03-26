@@ -1,7 +1,6 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "new.mycity.com",
   "proxy": "thirsty-poincare-06aed9.netlify.com",
   "private": true,
   "dependencies": {
