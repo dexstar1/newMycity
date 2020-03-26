@@ -1,10 +1,10 @@
 <?php
 header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: http://mycity.com");
 header("Access-Control-Allow-Headers: access");
 header("Access-Control-Allow-Methods: GET");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-header("Access-Control-Allow-Origin: https://mycity.com");
 
 require 'db_connection.php';
 
