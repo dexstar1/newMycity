@@ -65,7 +65,7 @@ class App extends Component {
             <div className="container-fluid bg-light">
             <div className="container p-5">
                 <div className="card shadow-sm">
-                    <h1 className="card-header text-center text-uppercase text-muted">React PHP CRUD Application</h1>
+                    <h1 className="card-header text-center text-uppercase text-muted">Welcome to My City</h1>
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
