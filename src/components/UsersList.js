@@ -9,7 +9,7 @@ class UsersList extends Component{
     }
     
     fetchUsers = () => {
-        fetch('../src/php-react/all-users.php')
+        fetch('http://localhost/php-react/all-users.php')
         .then(response => {
             response.json().then(function(data) {
                 if(data.success === 1){
@@ -32,7 +32,7 @@ class UsersList extends Component{
     }
 
     handleUpdate = (id) => {
-        Axios.post('../src/php-react/update-user.php',
+        Axios.post('http://localhost/php-react/update-user.php',
         {
             id:id,
             user_name:this.name.value,
@@ -99,7 +99,7 @@ class UsersList extends Component{
             return user.id !== id;
         });
         
-        Axios.post('../src/php-react/delete-user.php',{
+        Axios.post('http://localhost/php-react/delete-user.php',{
             id:id
         })
         .then(({data}) => {

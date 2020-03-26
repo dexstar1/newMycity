@@ -8,7 +8,7 @@ export default class AddUser extends Component{
     insertUser = (event) => {
         event.preventDefault();
         event.persist();
-        Axios.post('../src/php-react/add-user.php',{
+        Axios.post('http://localhost/php-react/add-user.php',{
             user_name:this.username.value,
             user_email:this.useremail.value
         })
