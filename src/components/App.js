@@ -56,7 +56,7 @@ class App extends Component {
                 <div className="alert alert-light" role="alert">
                     <h4 className="alert-heading">No User Found!</h4>
                     <hr/>
-                    <p>Please Insert Some Users.</p>
+                    <p>Please Insert Some <br />Users.</p>
                 </div>
             );
         }
