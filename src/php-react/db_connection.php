@@ -1,2 +1,2 @@
 <?php
-$db_conn = mysqli_connect("localhost","root","","react_php_crud");
+$db_conn = mysqli_connect("localhost","mycity29_root","zBi6h49~","mycity29_maindb");
