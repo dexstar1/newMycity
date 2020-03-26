@@ -1,7 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "proxy": "http://localhost",
+  "homepage": "new.mycity.com",
+  "proxy": "thirsty-poincare-06aed9.netlify.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
