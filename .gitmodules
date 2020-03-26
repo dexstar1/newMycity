@@ -1,1 +1,3 @@
-url = https://github.com/dexstar1/newMycity.git
+[submodule "src/php-react"]
+	path = src/php-react
+	url = https://github.com/dexstar1/newMycity
