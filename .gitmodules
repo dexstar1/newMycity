@@ -1,0 +1,3 @@
+[submodule "newMycity"]
+	path = newMycity
+	url = https://github.com/dexstar1/newMycity.git
